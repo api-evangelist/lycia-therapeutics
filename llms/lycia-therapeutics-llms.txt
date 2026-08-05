@@ -1,0 +1,64 @@
+---
+generated: '2026-08-04'
+method: generated
+source: apis.yml + lyciatx.com public pages (no /llms.txt is published by Lycia Therapeutics; https://lyciatx.com/llms.txt returned 404)
+---
+# Lycia Therapeutics
+
+> Lycia Therapeutics is a privately held, research-stage biotechnology company in South
+> San Francisco, California, developing targeted protein degradation medicines on its
+> proprietary lysosomal targeting chimera (LYTAC) platform. LYTAC molecules bind a
+> disease-driving extracellular protein and shuttle it into the cell for destruction by
+> the lysosome, addressing circulating and membrane-bound proteins that small molecules
+> and antibodies have been unable to drug. Lycia publishes no public API, developer
+> portal, or machine-readable API artifacts.
+
+## Company
+
+- Name: Lycia Therapeutics
+- Headquarters: 400 East Jamie Court, Suite 200, South San Francisco, CA 94080, USA
+- Sector: Biotechnology / therapeutics / drug discovery
+- Platform: LYTAC (lysosomal targeting chimera) targeted protein degradation
+- Scientific origin: the Stanford University laboratory of Carolyn Bertozzi, Ph.D.,
+  2022 Nobel laureate in Chemistry
+- Chief Executive: Aetna Wun Trombley, Ph.D., President and CEO
+- Investors include: Versant Ventures, Redmile Group, Venrock, RTW, Blue Owl
+- Partnerships include: Eli Lilly and Company (LYTAC degrader discovery and development)
+- Ownership: private; secondary-market shares are listed on Forge Global
+
+## Site
+
+- [Home](https://lyciatx.com/)
+- [Overview](https://lyciatx.com/about/overview/)
+- [About](https://lyciatx.com/about/)
+- [Team](https://lyciatx.com/about/team/)
+- [Investors](https://lyciatx.com/about/investors/)
+- [Partnering](https://lyciatx.com/about/partnering/)
+- [Technology](https://lyciatx.com/technology/)
+- [LYTAC platform](https://lyciatx.com/technology/lytac-platform/)
+- [Publications](https://lyciatx.com/technology/publications/)
+- [Pipeline](https://lyciatx.com/pipeline/)
+- [Programs](https://lyciatx.com/pipeline/programs/)
+- [Disease area focus](https://lyciatx.com/pipeline/disease-area-focus/)
+- [News](https://lyciatx.com/news/)
+- [News RSS](https://lyciatx.com/feed/)
+- [Careers](https://lyciatx.com/careers/)
+- [Contact](https://lyciatx.com/contact/)
+- [Terms of use](https://lyciatx.com/terms-of-use/)
+- [Privacy policy](https://lyciatx.com/privacy-policy/)
+
+## APIs
+
+None. As of 2026-08-04 Lycia Therapeutics publishes no public API, no developer portal,
+and no machine-readable API contract. Probes of lyciatx.com for /openapi.json,
+/openapi.yaml, /swagger.json, /api-docs, /api, /graphql, /llms.txt and the full
+/.well-known/ discovery surface (security.txt, openid-configuration,
+oauth-authorization-server, oauth-protected-resource, api-catalog, ai-plugin.json,
+agent-card.json, agent.json) all returned HTTP 404. DNS lookups for api., developer.,
+docs., dev., status. and trust. subdomains returned NXDOMAIN.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/lycia-therapeutics/refs/heads/main/apis.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/lycia-therapeutics/refs/heads/main/security/lycia-therapeutics-domain-security.yml)
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/lycia-therapeutics/refs/heads/main/well-known/lycia-therapeutics-well-known.yml)

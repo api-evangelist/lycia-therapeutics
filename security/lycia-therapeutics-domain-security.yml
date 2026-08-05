@@ -1,0 +1,15 @@
+generated: '2026-08-04'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: lyciatx.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 14 17:00:26 2026 GMT
+  hsts: false
+domains:
+- domain: lyciatx.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

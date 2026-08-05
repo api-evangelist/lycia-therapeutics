@@ -1,0 +1,63 @@
+generated: '2026-08-04'
+method: probed
+source: live HTTP probe of the Lycia Therapeutics web host (lyciatx.com)
+note: >-
+  No /.well-known/ discovery documents are published by Lycia Therapeutics. Every
+  RFC 8615 path probed returned 404, as did every common machine-readable contract
+  location (/openapi.json, /openapi.yaml, /swagger.json, /api-docs, /graphql, /api)
+  and /llms.txt. This is an honest negative result, not a gap in probing. Lycia is a
+  privately held research-stage biotechnology company with a WordPress marketing site
+  and no developer program. DNS lookups for api., developer., docs., dev., status.
+  and trust. subdomains of lyciatx.com all returned NXDOMAIN (no records).
+hosts:
+  - host: https://lyciatx.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /openapi.json
+        status: 404
+      - path: /openapi.yaml
+        status: 404
+      - path: /swagger.json
+        status: 404
+      - path: /api-docs
+        status: 404
+      - path: /api
+        status: 404
+      - path: /graphql
+        status: 404
+      - path: /robots.txt
+        status: 200
+      - path: /sitemap.xml
+        status: 200
+      - path: /feed/
+        status: 200
+subdomains_probed:
+  - host: api.lyciatx.com
+    dns: nxdomain
+  - host: developer.lyciatx.com
+    dns: nxdomain
+  - host: docs.lyciatx.com
+    dns: nxdomain
+  - host: dev.lyciatx.com
+    dns: nxdomain
+  - host: status.lyciatx.com
+    dns: nxdomain
+  - host: trust.lyciatx.com
+    dns: nxdomain
